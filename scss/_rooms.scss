@@ -1,0 +1,277 @@
+.rooms {
+  margin-top: 100px;
+  background: #fcf8f3;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.slick span {
+  display: block;
+  font-size: 36px;
+  height: 500px;
+  width: 30%;
+  position: relative;
+  text-align: center;
+  transform: translate(0, 0) scale(0.4);
+  transition: all 0.4s ease;
+  opacity: 0.5;
+}
+
+.slick-slide.lt2 span,
+.slick-slide.lt1 span,
+.slick-slide.gt1 span {
+  width: 90%;
+  height: 90%;
+}
+
+.slick-slide.lt2 span {
+  transform: translate(10%, 0) scale(0.6);
+}
+
+.slick-slide.lt1 span {
+  opacity: 0.9;
+  transform: translate(5%, 0) scale(0.8);
+}
+
+.slick-slide.gt1 span {
+  opacity: 0.2;
+  transform: translate(-5%, 0) scale(0.8);
+}
+
+.slick-slide.gt2 span {
+  transform: translate(-10%, 0) scale(0.6);
+}
+
+.slick-slide.slick-center span {
+  z-index: 1;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  appearance: none;
+  margin-top: -10px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: transparent;
+  outline: none;
+  z-index: 100;
+}
+
+.slick-prev {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  left: 0;
+  top: 200px;
+}
+
+.slick-next {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  right: 0;
+}
+
+.rooms__box {
+}
+
+.rooms__title {
+  color: var(--Color-Gray-1, #3a3a3a);
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 48px */
+}
+
+.rooms__text2 {
+  color: var(--Color-Gray-2, #616161);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 24px */
+}
+
+.slick {
+  flex: 1;
+  max-width: 900px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slick span img {
+  height: 100%;
+  width: auto;
+}
+
+.slick span {
+  left: -250px;
+}
+
+.slick-slide {
+  /* Your existing styles */
+}
+
+.slick-prev,
+.slick-next {
+  /* Your existing styles */
+}
+
+/* Adjust the span's size */
+.slick span {
+  height: 95%;
+}
+
+.slick-dots {
+  // background-color: #ff0000;
+  width: 14% !important;
+  // top: 400px;
+  // left: 20%;
+  height: 2%;
+//   background-color: rgb(25, 0, 255);
+}
+
+// #slick-slide-control03{
+//     &::before{
+//         width: 50px;
+//         height: 50px;
+//         background-color: yellow;
+//     }
+// }
+
+.presentation {
+  &::before {
+    width: 200px;
+    height: 200px;
+    // background-color: aqua;/
+  }
+}
+
+#slick-slide-control002::before {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
+
+.slick-prev {
+  display: none;
+}
+
+.slick-prev {
+  display: none;
+}
+
+/* O'lchami kattartirilgan rasmlar */
+.slick-slide.lt2 span,
+.slick-slide.lt1 span,
+.slick-slide.gt1 span,
+.slick-slide.slick-center span {
+  width: 95%;
+  height: 95%;
+}
+
+/* Slick nuqtalari (dots) */
+.slick-dots {
+  width: 25% !important;
+  top: 400px;
+  left: 450px;
+  height: 20px;
+}
+
+/* Har bir nuqta (dot) uchun stil */
+.slick-dots li button {
+  /* Qizil rang (o'zingiz istagan rangni tanlang) */
+  /* Shakl (yuzasi yuvarlak bo'lishi) */
+  margin: 0; /* Nuqtalar orasidagi masofa */
+}
+
+/* Aktiv nuqta (dot) uchun stil */
+.slick-dots li.slick-active button {
+  // background-color: #00ff00; /* Aktiv nuqta (dot) rangi */
+}
+
+.slick-slide01 {
+  width: 100px;
+}
+
+.slick-slide {
+}
+
+.slick-dots li.slick-active button {
+  border-radius: 50%;
+  background: #cca92c;
+  cursor: pointer;
+  box-shadow: 0 0 0 #fcf8f3;
+  animation: pulse 1s infinite;
+  padding: 10px;
+}
+.slick-dots li.slick-active button:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(204, 60, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 44, 44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.4);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+.rooms__box {
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .slick-dots {
+    // background-color: #ff0000;
+    // width: 10% !important;
+    // display: flex;
+    // // flex-wrap: nowrap;
+
+    left: 70%;
+    // right: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .slick-dots {
+    // background-color: #ff0000;
+    width: 35% !important;
+    // top: 400px;
+    left: 70%;
+    // height:5%;
+    // background-color: rgb(0, 255, 110);
+    right: 0;
+    padding: 20px;
+  }
+}
+
+
+
