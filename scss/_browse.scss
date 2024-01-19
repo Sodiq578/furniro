@@ -232,7 +232,23 @@ display: flex;
 }
 
 .our__texts-box{
-    padding: 0 20px 0 ;
+    padding: 20px 20px;
+
+}
+
+.sale{
+    width: 48px;
+height: 48px;
+flex-shrink: 0;
+background-color: var(--Color-Red-Accents, #E97171);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+position: absolute;
+top: 20px;
+right: 20px;
 }
 
 .our__min-box{

@@ -30,6 +30,7 @@ function navLinkClick() {
 
 
 $(document).ready(function () {
+
     $(".slick").slick({
         infinite: true,          // Cheksiz qaytish
         slidesToShow: 3,         // Ko'rsatilayotgan slaydlar soni
@@ -37,7 +38,7 @@ $(document).ready(function () {
         speed: 200,              // Animatsiya tezligi (ms)
         autoplaySpeed: 4000,     // Avtomatik qaytishning tezligi (ms)
         centerMode: true,        // O'rtada joylashgan slayt rejimi
-        centerPadding: "0px",      // O'rtadagi slaytning ichki bo'shligi
+        centerPadding: "50px",      // O'rtadagi slaytning ichki bo'shligi
         dots: true,              // Slaytlar navigatsiyasi (nuqtalar)
     });
 });
@@ -48,3 +49,57 @@ $(".slick-slide:not(.slick-center) span img").css("width", "700px");
 
 // Slayderda o'zgarishlarni qayta yuklash uchun
 $(".slick").slick("refresh");
+
+
+
+
+$(document).ready(function(){
+    $("img").click(function(){
+    var t = $(this).attr("src");
+    $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+    $("#myModal").modal();
+  });
+  
+  $("video").click(function(){
+    var v = $("video > source");
+    var t = v.attr("src");
+    $(".modal-body").html("<video class='model-vid' controls><source src='"+t+"' type='video/mp4'></source></video>");
+    $("#myModal").modal();  
+  });
+  });//EOF Document.ready
+
+
+
+
+  let currentPage = 1;
+
+function changePage(page) {
+  // Simulyatsiya uchun console.log
+  console.log(`Sahifa o'zgartirildi: ${page}`);
+  // Bu funksiya o'zgartirilgan sahifaga o'tish va kerakli ishlarni bajaradi
+}
+
+document.getElementById('prevBtn').addEventListener('click', () => {
+  if (currentPage > 1) {
+    currentPage--;
+    changePage(currentPage);
+  }
+});
+
+document.getElementById('nextBtn').addEventListener('click', () => {
+  // O'zgartirilgan sahifaning miqdori
+  const totalPages = 3; // Misol uchun 3
+
+  if (currentPage < totalPages) {
+    currentPage++;
+    changePage(currentPage);
+  }
+});
+
+
+
+
+
+
+
+
