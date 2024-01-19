@@ -26,7 +26,7 @@
 
 .sofa__box1-text{
     color: #9F9F9F;
-
+    margin-left: 38px;
 font-family: "Poppins";
 font-size: 16px;
 font-style: normal;
@@ -51,17 +51,430 @@ height: 37px;
 background: #9F9F9F;
 }
 
-@media (max-width: 1000px) {
+
+
+
+
+
+
+
+
+
+  /////////////////////
+ 
+.boss{
+    margin-top: 50px;
+}
+
+  .boss__box{
+    display: flex;
+    // align-items: center ;
+    justify-content: space-around;
+  }
+
+
+.boss__list-twoo ,  .boss__list-three{
+    margin: 40px 0px;
+}
+
+.boss__img{
+    border-radius: 10px;
+}
+
+
+.line{
+    width: 1px;
+height: 30px;
+background: #9F9F9F;
+}
+
+
+.boss__list-stars-box{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    
+}
+
+
+.boss__title{
+    color: #000;
+
+font-family: "Poppins";
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.boss__text{
+    color: #9F9F9F;
+
+font-family: "Poppins";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.stars_text{
+    color: #9F9F9F;
+
+font-family: 'Poppins';
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+align-items: center;
+}
+
+
+.boss__bottom-text{
+    color: #000;
+
+font-family: "Poppins";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 80%;
+}
+
+
+.boss__list-box2 div, p{
+    margin: 20px 0;
+}
+
+
+
+.size{
+    color: #9F9F9F;
+
+font-family: "Poppins";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.size__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    margin: 0px;
+}
+
+.size__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    background: #F9F1E7;
+   border-radius: 10px; 
+   &:hover{
+    background: var(--Primary, #B88E2F);
+   }
+}
+
+
+// .fioletviy{
+//     width: 30px;
+// height: 30px;
+// flex-shrink: 0;
+// border-radius: 50px;
+// background: #816DFA;
+// }
+
+
+.fioletviy {
+    padding: 20px;
+    width: 50px !important;
+    height: 50px !important;
+    // width: 200px;
+    background-color: purple; /* Fiolet rang uchun */
+    color: white; /* Text rangi */
+    border-radius: 50%;
+}
+
+.qora {
+    padding: 20px;
+    width: 50px !important;
+    height: 50px !important;
+    // width: 200px;
+    background-color: rgb(0, 0, 0); /* Fiolet rang uchun */
+    color: white; /* Text rangi */
+    border-radius: 50%;
+}
+
+.malla {
+    padding: 20px;
+    width: 50px !important;
+    height: 50px !important;
+    // width: 200px;
+    background-color: #B88E2F; /* Fiolet rang uchun */
+    color: white; /* Text rangi */
+    border-radius: 50%;
+}
+
+
+
+
+
+.boss-numbers__box{
+    width: 123px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #9F9F9F;
+padding: 15px;
+background: #FFF;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.num__button{
+    border: none;
+    background-color: #00000000;
+}
+
+
+.numb__text{
+    color: #000;
+
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.Add__card{
+    width: 215px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 15px;
+border: 1px solid #000;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.numb__big-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+@media (max-width: 1200px) {
+
+.Add__card{
+    width: 150px;
+}
+
+
     .sofa__box {
       width: 40%;
     //   background-color: rgb(0, 255, 102);
     }
+
+  
   }
 
 
-@media (max-width: 780px) {
+@media (max-width: 1000px) {
+.boss__bottom-text{
+    text-align: center;
+
+}
+
+
+.boss__for-big-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boss__list-box2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.numb__big-box{
+    width: 45%;
+    justify-content: space-between;
+    // background-color: red;
+}
+
+.Add__card{
+    width: 120px;
+}
+
+.boss-numbers__box{
+    width: 100px;
+}
+    .sofa__box {
+      width: 40%;
+    //   background-color: rgb(0, 255, 102);
+    }
+
+.size__color{
+    display: flex;
+    justify-content: space-around;
+}
+
+.size__min-bos2{
+    // background-color: red;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.size__box div{
+margin: 0 20px;
+}
+
+.boss__row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.size__box div {
+    margin: 0 10px;
+}
+
+//     .boss__row{
+//         display: flex;
+// flex-direction: column;
+// align-items: center;
+// justify-content: center;
+//     }
+  }
+
+
+@media (max-width: 880px) {
+
+.size__color{
+    flex-direction: column;
+}
+
     .sofa__box {
       width: 100%;
     //   background-color: red;
     }
+    
+    .boss__list-box2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boss-numbers__box{
+        width: 100px;
+    }
+
+.numb__big-box{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .Add__card{
+        width: 120px;
+    }
   }
+
+
+  @media (max-width: 610px) {
+    .boss__list-stars-box{
+        width: 80%;
+    }
+    .numb__big-box{
+        width: 70%;
+    }
+  .boss-numbers__box{
+    width: 80px;
+    // background-color: red;
+  }
+
+  .Add__card{
+    width: 100px;
+  }
+  }
+
+  @media (max-width: 550px) {
+    .boss__list-box{
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        justify-content: space-around;
+    }
+
+    .boss__box{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+
+
+  @media (max-width: 500px) {
+
+    .Add__card{
+        width: 150px;
+        height: 64px;
+    }
+
+    .boss__img{
+        width: 350px;
+      align-items: center;
+        
+    }
+
+    .boss__box{
+        
+    }
+    
+    .boss-numbers__box{
+        width: 100px;
+    height: 64px;
+    }
+
+    .numb__big-box{
+      flex-direction: column;
+    }
+    
+      
+      }
+
+
+.boss__for{
+    display: flex;
+}
+
+  .boss__for p{
+    
+    color: #9F9F9F;
+    
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+
+  .boss__for p:nth-child(2) {
+    margin-left: 10px;
+}
