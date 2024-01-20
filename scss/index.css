@@ -3289,7 +3289,7 @@ img {
 .compariseion__title {
   width: 223px;
   color: #000;
-  font-family: " Poppins";
+  font-family: Poppins;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -3310,4 +3310,137 @@ img {
   font-weight: 500;
   line-height: normal;
   margin: 0px;
+}
+
+.go__box-title {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 126.5%;
+}
+
+.go__numb-text {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.go__stars-box-title {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.go__stars-text {
+  color: #9F9F9F;
+  font-family: "Poppins";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.comp__line {
+  width: 1px;
+  height: 30px;
+  background: #9F9F9F;
+}
+
+.go__stars-box {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  justify-content: space-between;
+}
+
+.go__button {
+  width: 80%;
+  height: 39px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: var(--Primary, #B88E2F);
+}
+
+.go__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 126.5%; /* 17.71px */
+}
+
+.go__button-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.go__box2-title {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 126.5%; /* 30.36px */
+  margin: 41px 0px 14px 0px;
+}
+
+.go {
+  margin-top: 100px;
+}
+
+@media (max-width: 1000px) {
+  .compariseion__title {
+    font-size: 23px;
+  }
+  .go__stars-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .comp__line {
+    display: none;
+  }
+  .go__box2-text {
+    font-size: 13px;
+  }
+  .go__box2-title {
+    font-size: 20px;
+    margin: 1px 0px 14px 0px;
+  }
+  .go__button svg {
+    display: none;
+  }
+}
+/* 1000px dan katta ekranlarda o'zgartirishlar */
+@media (max-width: 700px) {
+  .go__row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .go__stars-box {
+    display: flex;
+  }
+  .go__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+  }
 }/*# sourceMappingURL=index.css.map */
