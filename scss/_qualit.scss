@@ -21,6 +21,15 @@
   margin: 0 auto;
 }
 
+.qualit__img-box img{
+  max-width: 100%;
+  height: auto;
+  margin-top: -21px;
+  height: 100px;
+  display: block;
+
+}
+
 .quality__title {
   color: #242424;
 
@@ -55,6 +64,4 @@
 }
 
 @media screen and (max-width: 850px) {
-
-    
 }

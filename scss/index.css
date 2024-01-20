@@ -2578,6 +2578,14 @@ p {
   margin: 0 auto;
 }
 
+.qualit__img-box img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -21px;
+  height: 100px;
+  display: block;
+}
+
 .quality__title {
   color: #242424;
   font-family: "Poppins";
@@ -3403,44 +3411,96 @@ img {
   margin-top: 100px;
 }
 
-@media (max-width: 1000px) {
-  .compariseion__title {
-    font-size: 23px;
-  }
-  .go__stars-box {
-    display: flex;
-    flex-direction: column;
-  }
-  .comp__line {
-    display: none;
-  }
-  .go__box2-text {
-    font-size: 13px;
-  }
-  .go__box2-title {
-    font-size: 20px;
-    margin: 1px 0px 14px 0px;
-  }
-  .go__button svg {
-    display: none;
+/* 1000px dan katta ekranlarda o'zgartirishlar */
+/* Styles for col-lg-6 when screen is 960px or smaller */
+/* Styles for col-lg-3 when screen is larger than 960px */
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+/* Styles for col-md-6 when screen is between 900px and 600px */
+@media (min-width: 601px) and (max-width: 900px) {
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
 }
-/* 1000px dan katta ekranlarda o'zgartirishlar */
-@media (max-width: 700px) {
-  .go__row {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+/* Styles for col-lg-3 when screen is larger than 900px */
+@media (min-width: 901px) {
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
   }
-  .go__stars-box {
-    display: flex;
+}
+@media (max-width: 901px) {
+  .go__mt {
+    margin-top: 100px;
   }
-  .go__box {
+}
+@media (max-width: 600px) {
+  .go__row div {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 0 auto;
-    width: 100%;
   }
+  .comp__line {
+    width: 1px;
+    height: 1px;
+    background-color: rgba(114, 114, 114, 0);
+  }
+}
+.tabs__row > div {
+  border-right: 1px solid #E8E8E8; /* Right border */
+  border-left: 1px solid #E8E8E8; /* Left border */
+}
+
+.tabs__row > div:last-child {
+  border-right: none; /* Remove right border for the last div */
+}
+
+.row__box1 {
+  border-left: none !important;
+}
+
+.row__tabs-title {
+  width: 175px;
+  color: #000;
+  font-family: "Poppins";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  margin-top: 50px;
+}
+
+.row__tabs-min-box p {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.5%; /* 25.3px */
+}
+
+.row__top {
+  margin-top: 50px;
+}
+
+.row__top2 {
+  margin-top: 150px;
+}
+
+.add__card {
+  width: 215px;
+  height: 64px;
+  flex-shrink: 0;
+  border: 1px solid var(--Primary, #B88E2F);
+  background: var(--Primary, #B88E2F);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=index.css.map */
