@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../scss/index.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <title>Cart</title>
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+        <div class="nav-wrapper">
+            <div class="grad-bar"></div>
+            <nav class="navbar">
+
+                <img src="../images/logo.svg" alt="">
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <div class="header__liks-box">
+                    <ul class="nav no-search">
+                        <li class="nav-item"><a href="#">Home</a></li>
+                        <li class="nav-item"><a href="#">About</a></li>
+                        <li class="nav-item"><a href="#">Work</a></li>
+                        <li class="nav-item"><a href="#">Careers</a></li>
+                        <li class="nav-item"><a href="#">Contact Us</a></li>
+                        <i class="fas fa-search" id="search-icon"></i>
+                        <input class="search-input" type="text" placeholder="Search..">
+                    </ul>
+                </div>
+                <ul id="d-none" class="header__img-box" style="   ">
+                    <a href="#"> <img src="../images/man.svg" alt=""></a>
+                    <a href="#"><img src="/images/search.svg" alt=""></a>
+                    <a href="#"><img src="/images/lice.svg" alt=""></a>
+                    <a href="#"><img src="/images/shop.svg" alt=""></a>
+                </ul>
+
+
+
+
+            </nav>
+        </div>
+
+    </div>
+    <main>
+        <section class="header__bottom">
+            <img class="header__bottom-img" src="../images//shop-image/shop-header-img.svg" alt="">
+            <h3 class="header__bottom-title">Shop</h3>
+            <div class="header__bottom-box d-flex">
+                <p class="header__bottom-box-text1">Home > </p>
+                <p class="header__bottom-box-text2">Shop</p>
+            </div>
+        </section>
+
+        <section class="go">
+            <div class="container">
+
+                <div class="go__box">
+                    <div class="row go__row">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h2 class="compariseion__title">Go to Product page for more Products</h2>
+                            <p class="comp__text">View More</p>
+                            <div class="compariseion__line"></div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 ">
+
+                            <img class="go__img" src="../images/comp-img.svg" alt="Comparison Image">
+                            <p class="go__box-title">Asgaard Sofa</p>
+                            <p class="go__numb-text">Rs. 250,000.00</p>
+                            <div class="go__stars-box">
+                                <p class="go__stars-box-title">4.7</p>
+                                <img src="/images/stars.svg" alt="stars">
+                                <div class="comp__line"> </div>
+                                <p class="go__stars-text">204 Review</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 go__mt ">
+                            <img class="go__img" src="../images/comp-img.svg" alt="Comparison Image">
+                            <p class="go__box-title">Asgaard Sofa</p>
+                            <p class="go__numb-text">Rs. 250,000.00</p>
+                            <div class="go__stars-box">
+                                <p class="go__stars-box-title">4.7</p>
+                                <img src="/images/stars.svg" alt="stars">
+                                <div class="comp__line"> </div>
+                                <p class="go__stars-text">204 Review</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 go__mt">
+                            <h2 class="go__box2-title">Add A Product</h2>
+                            <div class="go__button">
+                                <p>Choose a Product </p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="11" viewBox="0 0 20 11"
+                                    fill="none">
+                                    <path d="M1 1L10 9.5L19 1" stroke="white" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+
+            <div class="container">
+
+
+                <div class="row tabs__row">
+
+
+
+                    <div class="col-12 col-md-6 col-lg-3 row__box1 row__tabs-min-box border-top">
+                        <h2 class="row__tabs-title">General</h2>
+                        <div class="row__top">
+                            <p>Sales Package</p>
+                            <p>Model Number</p>
+                            <p>Material</p>
+                            <p>Configuration</p>
+                            <p>Upholstery Material</p>
+                            <p>Upholstery Color</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3  row__tabs-min-box border-top">
+                        <div class="row__top2">
+                            <p>1 sectional sofa</p>
+                            <p>TFCBLIGRBL6SRHS</p>
+                            <p>Solid Wood</p>
+                            <p>L-shaped</p>
+                            <p>Fabric + Cotton</p>
+                            <p>Bright Grey & Lion</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3  row__tabs-min-box border-top">
+                        <div class="row__top2">
+                            <p>1 Three Seater, 2 Single Seater</p>
+                            <p>DTUBLIGRBL568</p>
+                            <p>Solid Wood</p>
+                            <p>L-shaped</p>
+                            <p>Fabric + Cotton</p>
+                            <p>Bright Grey & Lion</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-12 col-md-6 border-top col-lg-3">
+
+                    </div>
+                </div>
+
+
+                <div class="row tabs__row">
+
+
+
+                    <div class="col-12 col-md-6 col-lg-3  row__box1 row__tabs-min-box">
+                        <h2 class="row__tabs-title">Product</h2>
+                        <div class="row__top">
+                            <p>Filling Material</p>
+                            <p>Finish Type</p>
+                            <p>Adjustable Headrest</p>
+                            <p>Maximum Load Capacity</p>
+                            <p>Origin of Manufacture</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 row__tabs-min-box">
+                        <div class="row__top2">
+                            <p>Foam</p>
+                            <p>Bright Grey & Lion</p>
+                            <p>No</p>
+                            <p>280 KG</p>
+                            <p>India</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 row__tabs-min-box">
+                        <div class="row__top2">
+                            <p>Matte</p>
+                            <p>Bright Grey & Lion</p>
+                            <p>yes</p>
+                            <p>300 KG</p>
+                            <p>India</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-12 col-md-6  col-lg-3">
+
+                    </div>
+                </div>
+
+                <div class="row tabs__row">
+
+
+
+                    <div class="col-12 col-md-6 col-lg-3  row__box1 row__tabs-min-box">
+                        <h2 class="row__tabs-title">Dimensions</h2>
+                        <div class="row__top">
+                            <p>Width</p>
+                            <p>Height</p>
+                            <p>Depth</p>
+                            <p>Weight</p>
+                            <p>Seat Height</p>
+                            <p>Leg Height</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 row__tabs-min-box">
+                        <div class="row__top2">
+                            <p>265.32 cm</p>
+                            <p>76 cm</p>
+                            <p>167.76 cm</p>
+                            <p>45 KG</p>
+                            <p>41.52 cm</p>
+                            <p>5.46 cm</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 row__tabs-min-box">
+                        <div class="row__top2">
+                            <p>265.32 cm</p>
+                            <p>76 cm</p>
+                            <p>167.76 cm</p>
+                            <p>65 KG</p>
+                            <p>41.52 cm</p>
+                            <p>5.46 cm</p>
+                        </div>
+
+                    </div>
+
+                   
+                    <div class="col-12 col-md-6 col-lg-3  row__tabs-min-box">
+
+                    </div>
+                </div>
+
+
+                <div class="row tabs__row">
+
+
+
+                    <div class="col-12 col-md-6 col-lg-3 row__tabs-min-box">
+                        <h2 class="row__tabs-title">Warranty</h2>
+                        <div class="row__top">
+                            <p>Summary</p>
+                            <p>Warranty Service
+                                Type</p>
+                            <p>Covered in Warranty</p>
+                            <p>Maximum Load Capacity</p>
+                            <p>Origin of Manufacture</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 row__tabs-min-box">
+                        <div class="row__top2">
+                            <p>1 Year Manufacturing Warranty</p>
+                            <p>For Warranty Claims or Any Product Related Issues Please Email at support@xyz.com</p>
+                            <p>Warranty Against Manufacturing Defect</p>
+                            <p>The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use
+                                And
+                                Wear & Tear In The Natural Course Of Product Usage.</p>
+                            <p>1 Year</p>
+                        </div>
+
+                        <div class="add__card">Add To Cart</div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 row__tabs-min-box">
+                        <div class="row__top2">
+                            <p>1 Year Manufacturing Warranty</p>
+                            <p>For Warranty Claims or Any Product Related Issues Please Email at support@xyz.com</p>
+                            <p>Warranty Against Manufacturing Defect</p>
+                            <p>The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use
+                                And
+                                Wear & Tear In The Natural Course Of Product Usage.</p>
+                            <p>1 Year</p>
+                        </div>
+
+                        <div class="add__card">Add To Cart</div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 ">
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section>
+            <div class="quality" style="margin-top: 100px;">
+                <div class="container">
+                    <div class="row quality__contents">
+                        <div class="col-lg-3 col-md-6  qualit__img-big-box">
+                            <div class="qualit__img-box">
+                                <img src="/images/shop-image/quality1.svg" alt="quality-image">
+                                <span>
+                                    <h3 class="quality__title">High Quality</h3>
+                                    <p class="quality__text">crafted from top materials</p>
+                                </span>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-3 col-md-6  qualit__img-big-box">
+                            <div class="qualit__img-box">
+                                <img src="/images/shop-image/quality1.svg" alt="quality-image">
+                                <span>
+                                    <h3 class="quality__title">High Quality</h3>
+                                    <p class="quality__text">crafted from top materials</p>
+                                </span>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-3 col-md-6  qualit__img-big-box">
+                            <div class="qualit__img-box">
+                                <img src="/images/shop-image/quality1.svg" alt="quality-image">
+                                <span>
+                                    <h3 class="quality__title">High Quality</h3>
+                                    <p class="quality__text">crafted from top materials</p>
+                                </span>
+                            </div>
+                        </div>
+    
+                        <div class="col-lg-3 col-md-6  qualit__img-big-box">
+                            <div class="qualit__img-box">
+                                <img src="/images/shop-image/quality1.svg" alt="quality-image">
+                                <span>
+                                    <h3 class="quality__title">High Quality</h3>
+                                    <p class="quality__text">crafted from top materials</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <div class="container my-5">
+        <!-- Footer -->
+        <footer class="  " style="text-align: left;">
+          
+          <!-- Section: Social media -->
+          <section class="d-flex justify-content-between p-4 text-white">
+            <!-- Left -->
+            <div class="me-5">
+    
+            </div>
+            <!-- Left -->
+    
+            <!-- Right -->
+            <div>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <!-- Right -->
+          </section>
+          <!-- Section: Social media -->
+    
+          <!-- Section: Links  -->
+          <section class="">
+            <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <!-- Content -->
+                  <h2 class="footer__logo-text fw-bold">Funiro.</h2>
+    
+                  <p class="footer__text">
+                    400 University Drive Suite 200 Coral Gables,
+    
+                    FL 33134 USA
+                  </p>
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footer__text-links-box">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold">Links</h6>
+    
+                  <p>
+                    <a href="#!" class="footer__links-text">Home</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="footer__links-text">Shop</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="footer__links-text">About</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="footer__links-text">Contact</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footer__text-links-box">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold">Useful links</h6>
+    
+                  <p>
+                    <a href="#!" class="footer__links-text">Payment Options</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="footer__links-text">Returns</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="footer__links-text">Privacy Policies</a>
+                  </p>
+    
+                </div>
+                <!-- Grid column -->
+    
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 footer__text-links-box">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold">Newsletter</h6>
+    
+                  <form action="/action_page.php">
+    
+                    <input placeholder="Enter Your Email Address" class="footer__input" type="email" id="email"
+                      name="email">
+                    <button class="footer__btn">SUBSCRIBE</button>
+                  </form>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </section>
+          <!-- Section: Links  -->
+    
+          <!-- Copyright -->
+    
+          <hr>
+          <p class="container">2023 furino. All rights reverved</p>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </div>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
