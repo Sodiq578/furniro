@@ -3503,4 +3503,167 @@ img {
   align-items: center;
   justify-content: center;
   align-items: center;
+}
+
+.admin__box-whan {
+  margin-left: -15px;
+}
+
+.admin__big-box-whan {
+  padding-right: 0px;
+}
+
+.admin__min-box-whan {
+  width: 94%;
+  height: 55px;
+  flex-shrink: 0;
+  background: #F9F1E7;
+  margin-top: 18px;
+}
+
+.admin__min-box-whan {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.admin__min-box2 {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card__totals {
+  height: 390px;
+  flex-shrink: 0;
+  background: #F9F1E7;
+}
+
+.admin__box-whan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin__box-twoo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 38px;
+  margin-left: -23px;
+}
+
+.card__totals-title {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card__totals-box1-text1, .card__totals-box1-text1 {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card__totals-box1-text2 {
+  margin-left: 50px;
+}
+
+.card__totals-box2-text2 {
+  margin-left: 20px;
+}
+
+.card__totals-box1-text2 {
+  color: #9F9F9F;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card__totals-box2-text2 {
+  color: var(--Primary, #B88E2F);
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.chesl__btn {
+  width: 222px;
+  height: 58.954px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #000;
+}
+
+.card__totals {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card__totals-box1, .card__totals-box2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.card__totals-box1 {
+  margin-bottom: 10px; /* You can adjust the margin as needed */
+}
+
+.card__totals-box1, .card__totals-box2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .admin__row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 900px) {
+  .card__totals {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .col-md-4 {
+    display: contents;
+    margin: 0 auto;
+    justify-content: center !important;
+  }
+  .admin__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+.card__totals-box1,
+.card__totals-box2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .admin__box-twoo {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=index.css.map */
