@@ -1027,3 +1027,195 @@ input {
 }
 
 
+
+
+
+
+////////////////////////
+
+
+
+.gb-container.modal::backdrop {
+  background-color: rgba(17, 255, 0, 0.5);
+}
+
+body {
+  
+}
+
+
+dialog{
+  // background-color: red;
+  top: 0%;
+  height: 717px;
+  border: none;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+.gb-button {
+  
+  display: inline-flex;
+
+}
+
+
+
+.cancel-button {
+  background-color: #ffffff; /* Qizil rang, o'zingiz tanlangan rangni ishlating */
+  color: #ffffff; /* Oq rang, tugma matni uchun o'zingiz tanlangan rangni ishlating */
+  border: none; /* Qizil rangda chegarasi */
+  padding: 10px; /* Tugma kengligi va balandligi */
+  cursor: pointer; /* Ko'rsatgich shakli, tugma bosilganda o'zgarishi */
+  &:active{
+    border: none;
+  }
+  &:hover{
+    border: none;
+  }
+}
+
+.cancel__box{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+/* Agar kerak bo'lsa, tugma hover (ilinib ketganda) stilini qo'shishingiz mumkin */
+.cancel-button:hover {
+  background-color: white; /* Qizil rangga o'zgarishi */
+  color: #ffffff; /* Oq rangga o'zgarishi */
+}
+
+
+.cancel__img{
+ font-size: 20px;
+ height: 22px !important;
+}
+
+
+.modal__img{
+  width: 200px !important;
+}
+
+
+.modal__images{
+  width: 105px !important;
+  height: 105px !important;
+  border-radius: 10px;
+}
+
+
+/* .modal rasim va matn joylashuvi stili */
+.gb-container.modal div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Yuqori qismda joylashish */
+}
+
+/* .modal rasimlar uchun stili */
+.gb-container.modal img.modal__img {
+  margin-right: 20px; /* Rasim va matn orasidagi bo'shliq */
+  align-self: flex-start; /* Yuqori qismda joylashish */
+}
+
+/* .modal title va text uchun stili */
+.gb-container.modal div div {
+  flex: 1; /* Title va textni teng tomonda joylashtiramiz */
+  align-self: flex-end; /* Pastki qismda joylashish */
+}
+
+
+/* .modal rasimlar uchun stili */
+.gb-container.modal img.modal__images {
+  max-width: 100%; /* Rasimning maksimal o'lchami */
+  max-height: 100%; /* Rasimning maksimal balandligi */
+}
+
+/* .modal rasimlar uchun stili */
+.gb-container.modal img.modal__images {
+  max-width: 100%; /* Rasimning maksimal o'lchami */
+  max-height: 300px; /* Rasimning maksimal balandligi */
+}
+
+
+
+.modal__min-box{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.modal__min-box-title{
+  color: #000;
+
+font-family:" Poppins";
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.modal__big-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.modal__quti{
+  width: 311px;
+}
+
+
+.modal__span{
+  display: flex;
+  // flex-direction: column;
+  line-height: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.bi-x-circle-fill {
+  fill: #9F9F9F;
+  width: 20px;
+  height: 20px;
+}
+
+.modal__min-span{
+  color: var(--Primary, #B88E2F);
+font-family: "Poppins";
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.modal__span-text{
+  color: #000;
+
+font-family: "Poppins";
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+display: flex;
+align-items: center;
+
+}
+
+
+.modal__x, .modal__1{
+  margin: 20px 10px;
+  color: #000;
+
+font-family:" Poppins";
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}

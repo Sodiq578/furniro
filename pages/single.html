@@ -51,12 +51,69 @@
                         <input class="search-input" type="text" placeholder="Search..">
                     </ul>
                 </div>
-                <ul id="d-none" class="header__img-box" style="   ">
+
+                <ul id="d-none" class="header__img-box">
                     <a href="#"> <img src="../images/man.svg" alt=""></a>
                     <a href="#"><img src="/images/search.svg" alt=""></a>
                     <a href="#"><img src="/images/lice.svg" alt=""></a>
-                    <a href="#"><img src="/images/shop.svg" alt=""></a>
+                    <a id="card" class="gb-button openmodal" href="#"><img src="/images/shop.svg" alt=""></a>
+                    <div class="gb-container modal">
+                        <div class="d-flex cancel__box">
+                            <h2>Shopping Cart</h2>
+                        <a class="cancel-button"><img class="cancel__img" src="/images/sumka.svg" alt=""></a>
+                        </div>
+                        
+                        <hr>
+                        <div class="modal__quti">
+
+                            <div class="modal__big-box">
+                                <div class="modal__box">
+                                    <img class="modal__images" src="../images/borwseimg3.svg" alt="">
+                                </div>
+
+                                <div class="modal__min-box">
+                                    <h3 class="modal__min-box-title">Asgaard sofa</h3>
+                               <span class="modal__span"> 
+                                    <p class="modal__1">1</p>
+                                    <p class="modal__x">X</p>
+                                    <p class="modal__span-text"><span class="modal__min-span">Rs.   250,000.00</span></p>
+                                </span>
+                                </div>
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                                </svg>
+                            </div>
+
+                            <div class="modal__big-box" style="margin-top: 20px;">
+                                <div class="modal__box">
+                                    <img class="modal__images" src="../images/borwseimg3.svg" alt="">
+                                </div>
+
+                                <div class="modal__min-box">
+                                    <h3 class="modal__min-box-title">Asgaard sofa</h3>
+                               <span class="modal__span"> 
+                                    <p class="modal__1">1</p>
+                                    <p class="modal__x">X</p>
+                                    <p class="modal__span-text"><span class="modal__min-span">Rs.   250,000.00</span></p>
+                                </span>
+                                </div>
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                                </svg>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="gb-container dialog"></div>
                 </ul>
+
 
 
 
@@ -296,17 +353,17 @@
 
 
         <section>
-           
+
             <div class="container  ">
                 <div class="popular__img-box">
-                     <div class="image-container">
-                    <img src="/images/creslo.svg" alt="Image 1">
+                    <div class="image-container">
+                        <img src="/images/creslo.svg" alt="Image 1">
+                    </div>
+                    <div class="image-container">
+                        <img src="/images/creslo.svg" alt="Image 2">
+                    </div>
                 </div>
-                <div class="image-container">
-                    <img src="/images/creslo.svg" alt="Image 2">
-                </div>
-                </div>
-               
+
             </div>
         </section>
 
@@ -370,7 +427,7 @@
 
                     </div>
 
-                   
+
 
 
                     <div class="card" id="card1">
@@ -388,11 +445,11 @@
                             </span>
                         </div>
 
-                        
+
 
                     </div>
                 </div>
-            
+
 
                 <!-- <button class="card-btn"></button> -->
 
@@ -401,127 +458,127 @@
             <button class="card__btn"> Show More</button>
         </section>
 
-    
-  <div class="container my-5">
-    <!-- Footer -->
-    <footer class="  " style="text-align: left;">
-      <hr>
-      <!-- Section: Social media -->
-      <section class="d-flex justify-content-between p-4 text-white">
-        <!-- Left -->
-        <div class="me-5">
 
+        <div class="container my-5">
+            <!-- Footer -->
+            <footer class="  " style="text-align: left;">
+                <hr>
+                <!-- Section: Social media -->
+                <section class="d-flex justify-content-between p-4 text-white">
+                    <!-- Left -->
+                    <div class="me-5">
+
+                    </div>
+                    <!-- Left -->
+
+                    <!-- Right -->
+                    <div>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="" class="text-white me-4">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <!-- Right -->
+                </section>
+                <!-- Section: Social media -->
+
+                <!-- Section: Links  -->
+                <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3">
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <!-- Content -->
+                                <h2 class="footer__logo-text fw-bold">Funiro.</h2>
+
+                                <p class="footer__text">
+                                    400 University Drive Suite 200 Coral Gables,
+
+                                    FL 33134 USA
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footer__text-links-box">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold">Links</h6>
+
+                                <p>
+                                    <a href="#!" class="footer__links-text">Home</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="footer__links-text">Shop</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="footer__links-text">About</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="footer__links-text">Contact</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footer__text-links-box">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold">Useful links</h6>
+
+                                <p>
+                                    <a href="#!" class="footer__links-text">Payment Options</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="footer__links-text">Returns</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="footer__links-text">Privacy Policies</a>
+                                </p>
+
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 footer__text-links-box">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold">Newsletter</h6>
+
+                                <form action="/action_page.php">
+
+                                    <input placeholder="Enter Your Email Address" class="footer__input" type="email"
+                                        id="email" name="email">
+                                    <button class="footer__btn">SUBSCRIBE</button>
+                                </form>
+                            </div>
+                            <!-- Grid column -->
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                </section>
+                <!-- Section: Links  -->
+
+                <!-- Copyright -->
+
+                <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
         </div>
-        <!-- Left -->
 
-        <!-- Right -->
-        <div>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-google"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="" class="text-white me-4">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-        <!-- Right -->
-      </section>
-      <!-- Section: Social media -->
 
-      <!-- Section: Links  -->
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
-          <!-- Grid row -->
-          <div class="row mt-3">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <!-- Content -->
-              <h2 class="footer__logo-text fw-bold">Funiro.</h2>
-
-              <p class="footer__text">
-                400 University Drive Suite 200 Coral Gables,
-
-                FL 33134 USA
-              </p>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footer__text-links-box">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold">Links</h6>
-
-              <p>
-                <a href="#!" class="footer__links-text">Home</a>
-              </p>
-              <p>
-                <a href="#!" class="footer__links-text">Shop</a>
-              </p>
-              <p>
-                <a href="#!" class="footer__links-text">About</a>
-              </p>
-              <p>
-                <a href="#!" class="footer__links-text">Contact</a>
-              </p>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footer__text-links-box">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold">Useful links</h6>
-
-              <p>
-                <a href="#!" class="footer__links-text">Payment Options</a>
-              </p>
-              <p>
-                <a href="#!" class="footer__links-text">Returns</a>
-              </p>
-              <p>
-                <a href="#!" class="footer__links-text">Privacy Policies</a>
-              </p>
-
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 footer__text-links-box">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold">Newsletter</h6>
-
-              <form action="/action_page.php">
-
-                <input placeholder="Enter Your Email Address" class="footer__input" type="email" id="email"
-                  name="email">
-                <button class="footer__btn">SUBSCRIBE</button>
-              </form>
-            </div>
-            <!-- Grid column -->
-          </div>
-          <!-- Grid row -->
-        </div>
-      </section>
-      <!-- Section: Links  -->
-
-      <!-- Copyright -->
-
-      <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
-  </div>
-
-        
 
     </main>
 
