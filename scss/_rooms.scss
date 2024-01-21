@@ -186,6 +186,7 @@
   top: 400px;
   left: 450px;
   height: 20px;
+  margin: -82px !important; 
 }
 
 /* Har bir nuqta (dot) uchun stil */
@@ -272,6 +273,21 @@
     right: 0;
     padding: 20px;
   }
+
+  .slider__respon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto !important;
+  }
+
+  .slick__img{
+    margin-left: 55px !important;
+  }
+
+  .slick__box{
+    margin-left: 50px !important;
+  }
 }
 
 
@@ -324,9 +340,13 @@
         left: 40%;
         // right: 0;
         top:520px;
-        background-color: red;
+        // background-color: red;
     }
 
+    #0{
+      width: 200px !important;
+      background-color: red;
+    }
     .slick-dots li{
         width: 9px !important;
     }
@@ -334,5 +354,12 @@
 }
 
 
+
+
+@media (max-width: 768px) {
+  .slick-slide.lt1 span {
+    transform: translate(5%, 0) scale(0.8) !important;
+  }
+}
 
 

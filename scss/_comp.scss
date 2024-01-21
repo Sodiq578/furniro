@@ -367,3 +367,19 @@ align-items: center;
 justify-content: center;
 align-items: center;
 }
+
+
+
+@media (max-width: 800px) {
+    .checkout__media-box1 {
+      width: 100%; /* Make columns full width on small screens */
+      height: auto; /* Allow columns to adjust their height based on content */
+    }
+  
+  
+    .billing__row{
+        display: flex;
+        flex-direction: column;
+        
+    }
+  }

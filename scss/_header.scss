@@ -127,6 +127,29 @@
     overflow: hidden;
     transition: 0.3s;
   }
+
+  /* Initial style for .navbar ul */
+.navbar ul {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-content: start;
+  top: 50px;
+  background-color: #adbab0;
+  width: 100%;
+  height: calc(100vh - 55px);
+  transform: translate(-101%);
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s; /* Add transition for smoother animation */
+}
+
+/* Style for .navbar ul when it's visible */
+.navbar ul.visible {
+  transform: translate(0%);
+  left: 0;
+}
+
   .site-navbar ul li {
     width: 100%;
     text-align: center;

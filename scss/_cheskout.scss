@@ -1,0 +1,218 @@
+.billing__row{
+    margin-top: 100px;
+}
+
+.bg-danger, .bg-warning {
+    height: 100%; /* Set a default height for the columns */
+  }
+
+
+.billingbox-list input{
+    
+    width: 65%;
+height: 75px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #9F9F9F;
+
+background: #FFF;
+
+
+
+}
+
+.slick__box{
+    overflow: hidden;
+    width: 300px !important;
+    height: 400px !important;
+}
+
+.slick__box img{
+    width: 900px !important;
+    height: auto !important;
+}
+
+.slick__img{
+    width: 600px !important;
+    height: 600px;
+}
+
+#cars{
+    width: 65%;
+}
+
+ .billingbox-min-box{
+    display: flex;
+    justify-content: space-between;
+    width: 46%;
+    // background-color: red;
+ } 
+
+
+ .billingbox-min-box2{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 64%;
+ }
+
+
+.billingbox-list div p{
+    color: #000;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.billingbox-list select{
+    width: 453px;
+height: 75px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #9F9F9F;
+
+background: #FFF;
+padding: 10px;
+}
+
+
+.billingbox-list input{
+    padding:  0 30px;
+}
+
+.billingbox-min-box2-inp{
+    width: 20%;
+    background-color: red;
+}
+
+.billingbox-min-box2 input{
+width: 45% !important;
+// background-color: red;
+}
+
+.produc__subtotal-title{
+    color: #000;
+font-family: "Poppins";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
+.product__text1{
+    color: #9F9F9F;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.product__text{
+    color: #000;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.subtotal-div__text1{
+    color: #000;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+
+.subtotal-div_text{
+    color: var(--Primary, #B88E2F);
+font-family: "Poppins";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.product__big-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.radio__title{
+    color: #000;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.place__btn{
+    width: 318px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 15px;
+border: 1px solid #000;
+
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto ;
+
+
+}
+
+.radio__text{
+    color: #9F9F9F;
+text-align: justify;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+
+.radio__text2{
+    color: #000;
+text-align: justify;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+  /* Media query for smaller screens */
+  @media (max-width: 767px) {
+    .bg-danger, .bg-warning {
+      width: 100%; /* Make columns full width on small screens */
+      height: auto; /* Allow columns to adjust their height based on content */
+    }
+  }
+
+
+  @media (max-width: 800px) {
+    .checkout__media-box1 {
+      width: 100%; /* Make columns full width on small screens */
+      height: auto; /* Allow columns to adjust their height based on content */
+    }
+  
+  
+    .billing__row{
+        display: flex;
+        flex-direction: column;
+        
+    }
+  }

@@ -1,0 +1,286 @@
+@media (max-width: 800px) {
+    .checkout__media-box1 {
+      width: 100%; 
+      height: auto; 
+    }
+  
+  
+    .billing__row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+  }
+
+
+
+.tabs__row{
+  margin-top: 100px;
+}
+
+  .contact__media-min-box-title{
+    Width:212px;
+   
+   height: 36px;
+    color: #000;
+font-family: "Poppins";
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+
+
+  .contact__media-min-box-text{
+    width: 212px;
+    color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+margin: 0px;
+line-height: normal;
+  }
+
+
+
+  .contact__media-min-box {
+    display: flex;
+    align-items: center;
+}
+
+
+.contact__media-min-box2{
+  margin: 30px 0px;
+}
+
+.contact__media-min-box-image {
+    max-width: 100px;
+    margin-right: 30px;
+    margin-top: -120px;
+}
+
+.contact__media-min-box-content {
+    flex-grow: 1;
+}
+
+
+.contact__media-min-box-image2{
+  margin-top:-70px;
+}
+
+.submit{
+  width: 237px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid var(--Primary, #B88E2F);
+background: var(--Primary, #B88E2F);
+display: flex;
+align-items: center;
+color: white;
+justify-content: center;
+margin-top: 49px;
+
+}
+
+
+.quality__contents{
+  display: flex;
+}
+
+
+.dashboard{
+  margin:  0 0 60px 0;
+}
+
+.dashboard__min-box-divs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.dashboar__categories{
+width: 311px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #9F9F9F;
+
+background: #FFF;
+}
+
+.dashboar__min-box-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  
+}
+
+
+.dashboard__min-box-divs p{
+  margin-left: 10px;
+}
+
+
+.dashboar__min-box-title{
+  color: #000;
+
+font-family: "Poppins";
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.dashboar__min-box-text{
+  color: #9F9F9F;
+width: 87%;
+text-align: justify;
+font-family: "Poppins";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+
+
+.dashboar__line{
+  width: 77px;
+  height: 1px;
+  background: #000;
+}
+
+.read__more{
+  color: #000;
+text-align: justify;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+
+.dashboard__categorys-input{
+  width: 311px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #9F9F9F;
+
+background: #FFF;
+}
+
+
+.dashboar__categories-title{
+  color: #000;
+font-family: "Poppins";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.dashboar__categorys{
+  position: relative;
+}
+
+.search2{
+  position: absolute;
+  top: 35%;
+  left:270px;
+}
+
+.dashboar__categories-text-box{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  /* background-color: red; */
+  width: 70%;
+}
+
+
+.dashboar__categories-text-box p{
+  color: #9F9F9F;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.dashboar__categorys-title{
+  color: #000;
+font-family: "Poppins";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.revercent__box-text1{
+
+  color: #000;
+font-family: "Poppins";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 85%;
+background-color: red;
+
+}
+
+.revercent__box-text2{
+  color: #9F9F9F;
+font-family: "Poppins";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.revercent__box{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rebeccapurple; */
+  width: 57%;
+}
+
+
+.revercent__box-twoo{
+  margin-left: 20px;
+}
+
+
+.revercent__box-margin{
+  margin: 20px 0px;
+}
+
+
+
+
+@media (max-width: 1200px) {
+
+  .dashboard__row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+/* 
+
+@media only screen and (max-width: 1200px) and (min-width: 900px) {
+  .gacha-revercent__box {
+    flex-direction: column !important;
+  }
+} */

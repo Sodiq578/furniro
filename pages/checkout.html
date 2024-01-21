@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../scss/index.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+        <link rel="stylesheet" href="../style2.css">
+    <title>Cheskout</title>
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+        <div class="nav-wrapper">
+            <div class="grad-bar"></div>
+            <nav class="navbar">
+
+                <img src="../images/logo.svg" alt="">
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <div class="header__liks-box">
+                    <ul class="nav no-search">
+                        <li class="nav-item"><a href="#">Home</a></li>
+                        <li class="nav-item"><a href="#">About</a></li>
+                        <li class="nav-item"><a href="#">Work</a></li>
+                        <li class="nav-item"><a href="#">Careers</a></li>
+                        <li class="nav-item"><a href="#">Contact Us</a></li>
+                        <i class="fas fa-search" id="search-icon"></i>
+                        <input class="search-input" type="text" placeholder="Search..">
+                    </ul>
+                </div>
+                <ul id="d-none" class="header__img-box" style="   ">
+                    <a href="#"> <img src="../images/man.svg" alt=""></a>
+                    <a href="#"><img src="/images/search.svg" alt=""></a>
+                    <a href="#"><img src="/images/lice.svg" alt=""></a>
+                    <a href="#"><img src="/images/shop.svg" alt=""></a>
+                </ul>
+
+
+
+
+            </nav>
+        </div>
+
+    </div>
+    <main>
+        <section class="header__bottom">
+            <img class="header__bottom-img" src="../images//shop-image/shop-header-img.svg" alt="">
+            <h3 class="header__bottom-title">Shop</h3>
+            <div class="header__bottom-box d-flex">
+                <p class="header__bottom-box-text1">Home > </p>
+                <p class="header__bottom-box-text2">Shop</p>
+            </div>
+        </section>
+
+
+        <section style="margin-top: 100px;" class="billing">
+            <div class="container">
+                <div class="row billing__row">
+
+
+                    
+                    <div class="col-md-6  checkout__media-box1">
+                        <h2>Billing details</h2>
+                        <ul class="billing__box">
+                            <li class="billingbox-list">
+                                <div class="billingbox-min-box">
+                                    <p>First Name</p>
+                                    <p>Last Name</p>
+                                </div>
+                                <div class="billingbox-min-box2">
+                                  <input class="billingbox-min-box2-inp" type="text">
+                                <input class="billingbox-min-box2-inp" type="text">   
+                                </div>
+                               
+                            </li>
+
+
+                            <li class="billingbox-list">
+                                <div>
+                                    <p>Company Name (Optional)</p>
+
+                                </div>
+                                <input type="text">
+                            </li>
+
+
+                            <li class="billingbox-list">
+                                <div>
+                                    <p>Company Name (Optional)</p>
+
+                                </div>
+                                <!-- <select name="cars" id="cars">
+                                    <img class="select__img" src="/images/select-img.svg" alt="">
+                                    <option value="volvo">Sri Lanka</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="opel">Opel</option>
+                                    <option value="audi">Audi</option>
+                                </select> -->
+
+
+                                
+                            </li>
+
+                            <li class="billingbox-list">
+                                <div>
+                                    <p>Street address</p>
+
+                                </div>
+                                <input type="text">
+                            </li>
+                            
+                            <li class="billingbox-list">
+                                <div>
+                                    <p>Town / City</p>
+
+                                </div>
+                                <input type="text">
+                            </li>
+
+                            
+                            <li class="billingbox-list">
+                                <div>
+                                    <p>Provincep>
+
+                                </div>
+                                <select valu name="cars" id="cars">
+                                    <option value="volvo"> Western Province</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="opel">Opel</option>
+                                    <option value="audi">Audi</option>
+                                </select>
+                            </li>
+
+
+                            <li class="billingbox-list">
+                                <div>
+                                    <p>ZIP code</p>
+
+                                </div>
+                                <input type="text">
+                            </li>
+
+
+                            <li class="billingbox-list">
+                                <div>
+                                    <p>Phone</p>
+
+                                </div>
+                                <input type="text">
+                            </li>
+
+
+                            <li class="billingbox-list">
+                                <div>
+                                    <p>Email address</p>
+
+                                </div>
+                                <input type="text">
+                            </li>
+
+                            <li class="billingbox-list">
+                                <input style="margin-top: 80px; margin-bottom: 80px; padding: 0 30px;" placeholder="Additional information" >
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-md-6 checkout__media-box1">
+                        
+                        <div class="product__big-box">
+                            <div class="product__div">
+                                <h2 class="produc__subtotal-title">Product</h2>
+                                <p class="product__tex1">Asgaard sofa X 1</p>
+                                <p class="produc__text">Subtotal</p>
+                                <p class="product__text">Total</p>
+                            </div>
+
+                            <div class="subtotal-div">
+                                 <h2 class="produc__subtotal-title"> Subtotal</h2>
+                                <p class="subtotal-div_text1">Rs. 250,000.00</p>
+                                <p class="subtotal-div_text1">Rs. 250,000.00</p>
+                                <p class="subtotal-div_text">Rs. 250,000.00</p>
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+                            <p class="radio__title">Direct Bank Transfer</p>
+                        
+                            <p class="radio__text">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                          </div>
+                          
+                          <!-- Default checked radio -->
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked/>
+                            <hp>Direct Bank Transfer</hp>
+                          </div>
+
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked/>
+                            <h9>Direct Bank Transfer</h9>
+
+                            <p class="radio__text2">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <b>privacy policy.</b></p>
+                          </div>
+
+                          <div class="place__btn"><p>Place order</p></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="quality" style="margin-top: 100px;">
+                <div class="container">
+                    <div class="row quality__contents">
+                        <div class="col-lg-3 col-md-6  qualit__img-big-box">
+                            <div class="qualit__img-box">
+                                <img src="/images/shop-image/quality1.svg" alt="quality-image">
+                                <span>
+                                    <h3 class="quality__title">High Quality</h3>
+                                    <p class="quality__text">crafted from top materials</p>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6  qualit__img-big-box">
+                            <div class="qualit__img-box">
+                                <img src="/images/shop-image/quality1.svg" alt="quality-image">
+                                <span>
+                                    <h3 class="quality__title">High Quality</h3>
+                                    <p class="quality__text">crafted from top materials</p>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6  qualit__img-big-box">
+                            <div class="qualit__img-box">
+                                <img src="/images/shop-image/quality1.svg" alt="quality-image">
+                                <span>
+                                    <h3 class="quality__title">High Quality</h3>
+                                    <p class="quality__text">crafted from top materials</p>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6  qualit__img-big-box">
+                            <div class="qualit__img-box">
+                                <img src="/images/shop-image/quality1.svg" alt="quality-image">
+                                <span>
+                                    <h3 class="quality__title">High Quality</h3>
+                                    <p class="quality__text">crafted from top materials</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <div class="container my-5">
+        <!-- Footer -->
+        <footer class="  " style="text-align: left;">
+
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-between p-4 text-white">
+                <!-- Left -->
+                <div class="me-5">
+
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="text-white me-4">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h2 class="footer__logo-text fw-bold">Funiro.</h2>
+
+                            <p class="footer__text">
+                                400 University Drive Suite 200 Coral Gables,
+
+                                FL 33134 USA
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footer__text-links-box">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Links</h6>
+
+                            <p>
+                                <a href="#!" class="footer__links-text">Home</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="footer__links-text">Shop</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="footer__links-text">About</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="footer__links-text">Contact</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 footer__text-links-box">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Useful links</h6>
+
+                            <p>
+                                <a href="#!" class="footer__links-text">Payment Options</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="footer__links-text">Returns</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="footer__links-text">Privacy Policies</a>
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 footer__text-links-box">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Newsletter</h6>
+
+                            <form action="/action_page.php">
+
+                                <input placeholder="Enter Your Email Address" class="footer__input" type="email"
+                                    id="email" name="email">
+                                <button class="footer__btn">SUBSCRIBE</button>
+                            </form>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+
+            <hr>
+            <p class="container">2023 furino. All rights reverved</p>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
